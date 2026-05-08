@@ -1,32 +1,41 @@
-🌐 AWS Static Website Hosting
+# AWS S3 Static Website Hosting Project
 
-📌 Project Overview
+## Project Overview
+This project demonstrates hosting a static portfolio website using AWS cloud services with a custom domain.
 
-This project demonstrates hosting a static website using AWS services.
+## Architecture
+User → Route53 → CloudFront → S3 Bucket
 
-🚀 Services Used
+## Services Used
+- Amazon S3
+- Amazon CloudFront
+- Amazon Route53
+- GoDaddy Domain
+- AWS Certificate Manager (HTTPS)
 
-- Amazon S3 (Static Website Hosting)
-- CloudFront (CDN)
-- Route 53 (Custom Domain)
+## Features
+- Static website hosting
+- CDN caching using CloudFront
+- HTTPS secure access
+- Custom domain integration
+- Low latency global access
 
-⚙️ Steps
+## Domain
+ramyasiva.space
 
-1. Created S3 bucket and enabled static hosting
-2. Uploaded HTML files
-3. Configured CloudFront distribution
-4. Linked domain using Route 53
+## Implementation Steps
+1. Created static website using HTML, CSS, and JavaScript
+2. Created S3 bucket and enabled static website hosting
+3. Uploaded website files into S3 bucket
+4. Configured bucket policy for access
+5. Created CloudFront distribution
+6. Purchased custom domain from GoDaddy
+7. Configured Route53 hosted zone
+8. Updated GoDaddy nameservers
+9. Mapped Route53 records to CloudFront
 
-🌍 Output
+## Security Enhancement
+Used CloudFront to securely deliver content and improve performance.
 
-Website accessible via custom domain: ramyasiva.space
-
-📷 Screenshots
-
-(Add screenshots here)
-
-🎯 Key Learnings
-
-- CDN improves performance
-- S3 is cost-effective for static hosting
-- DNS routing using Route 53
+## Outcome
+Successfully hosted portfolio website globally using AWS cloud services with custom domain access.
