@@ -24,7 +24,7 @@ User → Route53 → CloudFront → S3 Bucket
 ramyasiva.space
 
 ## Implementation Steps
-1. Created static website using HTML, CSS, and JavaScript
+1. Created static website using HTML, CSS
 2. Created S3 bucket and enabled static website hosting
 3. Uploaded website files into S3 bucket
 4. Configured bucket policy for access
